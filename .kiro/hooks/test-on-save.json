@@ -1,0 +1,1 @@
+{"hooks":[{"action":{"command":"npm test","type":"command"},"description":"Run the unit test suite whenever the agent saves a TypeScript file under src/. The suite is small and has no per-file affected-test selection, so the full suite runs.","enabled":true,"matcher":"src/.*\\.ts$","name":"test-on-save","trigger":"PostFileSave"}],"version":"v1"}

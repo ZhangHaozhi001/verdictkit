@@ -1,0 +1,1 @@
+{"hooks":[{"action":{"command":"npm run demo && npm test","type":"command"},"description":"When verdict-core changes, regenerate the demo outputs from the fixtures and run the full test suite, so the demo cards never drift from the engine.","enabled":true,"matcher":"src/core/.*\\.ts$","name":"fixture-refresh","trigger":"PostFileSave"}],"version":"v1"}
